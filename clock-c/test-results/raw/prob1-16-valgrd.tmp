@@ -1,0 +1,16 @@
+==4080== Memcheck, a memory error detector
+==4080== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4080== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4080== Command: ./test_clock after-1pm-set
+==4080== Parent PID: 4079
+==4080== 
+==4080== error calling PR_SET_PTRACER, vgdb might block
+==4080== 
+==4080== HEAP SUMMARY:
+==4080==     in use at exit: 0 bytes in 0 blocks
+==4080==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==4080== 
+==4080== All heap blocks were freed -- no leaks are possible
+==4080== 
+==4080== For counts of detected and suppressed errors, rerun with: -v
+==4080== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
